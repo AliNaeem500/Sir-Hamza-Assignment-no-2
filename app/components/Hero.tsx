@@ -1,13 +1,31 @@
+export default function Hero () {
+    return (
 
-export default function Hero() {
-    return(
-        <div style={{backgroundColor:"lightgreen"}}>
-            
-        <h1 style={{ marginLeft: '16%' , marginTop: '5%' , color: 'blue' ,fontWeight: "bold" , fontSize: 50, fontFamily:"revert-layer"}}>This is second Assignment</h1>
-                  <h2 style={{marginLeft: '45%' , marginTop: '5%' , color: 'brown' ,fontWeight: "bold" , fontSize: 60, fontFamily:"revert-layer"}}> Of</h2>
-              <h3 style={{marginLeft: '25%' , marginTop: '2.5%' , color: 'blueviolet' ,fontWeight: "bold" , fontSize: 75, fontFamily:"revert-layer" }}>Sir Hamza Alvi</h3>
-              <h4 style={{marginLeft: '30%' , marginTop: '5%' , color: 'brown' ,fontWeight: "bold" , fontSize: 45, fontFamily:"revert-layer"}}>Thursday Morning</h4>
+<section className="bg-gray-100 py-20 px-4 text-center">
+  <div className="max-w-4xl mx-auto">
+    <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800">
+      Welcome to Our Website
+    </h1>
+    <p className="text-lg md:text-xl text-gray-600 mb-8">
+      We provide high quality services to help you grow your business.
+    </p>
+    <div className="flex justify-center gap-4">
+      <a
+        href="/About"
+        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+      >
+        Learn More
+      </a>
+      <a
+        href="/Contact-Us"
+        className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
 
-        </div>
-    )
-}
+</section>
+
+)
+} 

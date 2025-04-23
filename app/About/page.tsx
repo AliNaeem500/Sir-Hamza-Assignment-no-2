@@ -1,10 +1,19 @@
 import Headerrr from "../components/Header";
 export default function About() {
-    return(
+    return (
       <div>
         <Headerrr />
-      <h1 style={{fontSize:'60px', background:'Aqua' , textShadow:'2px 2px 0px white' , fontFamily:"sans-serif"}}> My name is Ali and i am student of Governor IT initiative.I study at Icom part 2 at Jinnah College.This is my second assignment given by Sir Hamza Alvi.I hope Sir Hamza will like it.I learned lot from him.I faced a lot of difficulties and error but facing errors is habit of every developer. </h1>
-      </div>
 
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+      <div className="max-w-xl text-center">
+        <h1 className="text-4xl font-bold mb-4">About Us</h1>
+        <p className="text-gray-700 text-lg">
+          Welcome to our website! We are committed to providing high-quality services to our users. 
+          Our mission is to make your experience simple, smooth, and effective. Thank you for visiting!
+          <p className="font-semibold"> <br />regards Ali Naeem</p>
+        </p> 
+        </div>
+    </div>
+    </div>
     );
   };
