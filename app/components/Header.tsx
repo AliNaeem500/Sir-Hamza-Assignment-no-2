@@ -1,5 +1,4 @@
 import Link from "next/link";
-import css from "styled-jsx/css";
 
 export default function Headerrr() {
   return(
