@@ -30,4 +30,3 @@ export default function Hero () {
 )
 }
 
-https://github.com/AliNaeem500/navbar-no-2.git
